@@ -192,14 +192,7 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-}
-
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        padding: 1rem;
-    }
-    
+}    
     .logo {
         margin-bottom: 1rem;
         font-size: 1.5rem;
@@ -215,8 +208,6 @@ footer {
     }
 }
 menu.html
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -316,70 +307,6 @@ menu.html
 </body>
 </html>
 
-menu.css:
-.menu-header {
-    background-color: #FFD700;
-    padding: 2rem;
-    text-align: center;
-}
-
-.menu-header h1 {
-    color: #FF0000;
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.menu-header h2 {
-    color: #333;
-    font-size: 1.8rem;
-}
-
-.menu-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    padding: 2rem;
-    background: url('bc.jpg') no-repeat center center;
-    background-size: cover;
-    min-height: 100vh;
-}
-
-.menu-item {
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    transition: transform 0.3s ease;
-    color: white;
-}
-
-.menu-item:hover {
-    transform: translateY(-5px);
-}
-
-.menu-item img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-bottom: 2px solid #FFD700;
-}
-
-.item-info {
-    padding: 1rem;
-    text-align: center;
-}
-
-.item-info h3 {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-    color: #FFD700;
-}
-
-.item-info p {
-    font-size: 0.9rem;
-    opacity: 0.8;
-    line-height: 1.4;
-}
 team.html
 <html lang="en">
 <head>
